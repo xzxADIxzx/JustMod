@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter",
+	"name": "Pulverizer of Metaglass",
+	"description": "[accent]Pulverizing[] metaglass to dust.",
+	"outputItem": {"item": "metadust", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "steam",
+	"consumes": {
+		"power": 0.5
+		"items": {"items": [{ "item": "metaglass", "amount": 1 }
+				   ]}
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 10 }
+		{ "item": "copper", "amount": 20 }
+		{ "item": "iron", "amount": 20 }
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.25
+}

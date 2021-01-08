@@ -1,0 +1,49 @@
+type: NuclearReactor
+"name": "Surge Reactor"
+"description": "Uses the [accent]properties[] of a [yellow]surge allloy[] and [#007F10]uranium[] [#007005]rod[] to [accent]create[] a [orange]huge[] amount of [accent]energy[]."
+itemCapacity: 7
+liquidCapacity: 30
+health: 1500
+size: 5
+itemDuration: 180 
+baseExplosiveness: 3500
+heating: 0.03
+explosionRadius: 250
+explosionDamage: 7000
+smokeThreshold: 1
+flashThreshold: 0.15
+layer: power
+buildCostMultiplier: 1
+powerProduction: 170
+consumes: {
+  items: {
+    items: [
+      uranium-rod/1
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.5
+  }
+}
+requirements: [
+  surge-alloy/50
+  phase-fabric/100
+  plastanium/100
+  metaglass/100
+  graphite/100
+  silicon/100
+  silicone/100
+  gold/100
+  copper/750
+  lead/1000
+  iron/750
+  titanium/500
+  cotton-wool/100
+]
+category: power
+research: impact-reactor
+activeSound: thruster
+activeSoundVolume: 5
+idleSound: respawning
+idleSoundVolume: 5

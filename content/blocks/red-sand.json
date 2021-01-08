@@ -1,0 +1,5 @@
+type: floor
+name: Red Sand
+itemDrop: red-powder
+variants: 5
+playerUnmineable: true

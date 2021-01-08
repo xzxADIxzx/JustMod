@@ -1,0 +1,28 @@
+{
+	"type": "GenericSmelter",
+	"name": "Kitchen",
+	"description": "In this [accent]cauldron[] you can [accent]cook[] the most [green]wonderful[] [orange]dish![]",
+	"liquidCapacity": 30,
+	"outputLiquid": {"liquid": "bla-bla-bla", "amount": 30},
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": false,
+	"craftTime": 60,
+	"consumes": {
+		"power": 0.5,
+	},
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 50 }
+		{ "item": "titanium", "amount": 50 }
+		{ "item": "metaglass", "amount": 50 }
+		{ "item": "graphite", "amount": 50 }
+		{ "item": "iron", "amount": 50 }
+		{ "item": "copper", "amount": 50 }
+		{ "item": "lead", "amount": 50 }
+	],
+	"category": "effect",
+	"research": "core-shard",
+	"idleSound": "respawning",
+	"idleSoundVolume": 1.0
+}

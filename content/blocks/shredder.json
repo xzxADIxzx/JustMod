@@ -1,0 +1,48 @@
+{
+	"type": "itemTurret",
+	"name": "Shredder",
+	"description": "Small turret made out of scrap. From [orange]ReFactorium[].",
+
+	"size": "1",
+	"health": "128",
+	"range": "100",
+	"ammoUseEffect": "none",
+	"maxAmmo": "100",
+	"inaccuracy": "20",
+	"shootSound": "pew",
+	
+	"ammoTypes": {
+		"scrap": {
+			"speed": "3.0",
+			"damage": "3",
+			"bulletWidth": "5",
+			"bulletHeight": "7",
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": "20"
+			},
+		"coal": {
+			"speed": "3.0",
+			"damage": "3",
+			"bulletWidth": "5",
+			"bulletHeight": "7",
+			"frontColor": "FFA500",
+			"backColor": "FFA500",
+			"status": "burning",
+			"statusDuration": "600",
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": "20",
+		}
+	},
+	
+	"requirements": [
+		{
+			"item": "scrap",
+			"amount": "32"
+		}
+	],
+	
+	"category": "turret",
+	"research": "duo"
+}

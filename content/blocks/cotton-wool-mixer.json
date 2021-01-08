@@ -1,0 +1,24 @@
+{
+	"name": "[#F0F0F0]Cotton[] Wool Mixer",
+	"description": "Creates [#F0F0F0]cotton[] wool using [purple]magic[].",
+	"liquidCapacity": 0,
+	"outputItem": {"item": "cotton-wool", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 100,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.5
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 15 }
+		{ "item": "lead", "amount": 20 }
+		{ "item": "copper", "amount": 20 }
+	],
+	"category": "crafting",
+	"research": "silicone-mixer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.2
+}

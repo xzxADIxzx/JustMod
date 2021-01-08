@@ -1,0 +1,6 @@
+type: resource
+"name": "[orange]Energy[] Cell"
+"description": "A [accent]cell[] to store [accent]3000[] [orange]energy[] in itself."
+radioactivity: 0.1
+explosiveness: 1.0,
+color: FFEA1C

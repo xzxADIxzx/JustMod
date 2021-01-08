@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "Microcircuits Factory",
+	"description": "[accent]Silicon[] processors included. [accent]Electricity[] runs along [gold]golden[] [accent]paths[].",
+	"outputItem": {"item": "microcircuit", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 300,
+	"updateEffect": "steam",
+	"consumes": {
+		"power": 0.5
+		"items": {"items": [{ "item": "platinum", "amount": 1 },
+                                                            { "item": "gold", "amount": 2 },
+                                                            { "item": "silicon", "amount": 2 }
+				   ]}
+	},
+	"requirements": [
+		{ "item": "plastanium", "amount": 50 }
+		{ "item": "titanium", "amount": 50 }
+		{ "item": "graphite", "amount": 20 }
+		{ "item": "iron", "amount": 20 }
+	],
+	"category": "crafting",
+	"research": "plastanium-compressor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.25
+}

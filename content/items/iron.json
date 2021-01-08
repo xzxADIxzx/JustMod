@@ -1,0 +1,6 @@
+type: material
+"name": "[#ABABAB]Iron[]"
+"description": "Quite often used [orange]material[]."
+hardness: 3
+cost: 1
+color: ababab

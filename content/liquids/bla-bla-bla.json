@@ -1,0 +1,11 @@
+{
+	"name": "Dish from [#0ADC0A]Bla bla bla",
+	"description": "By [#0ADC0A]Bla bla bla[]. My sister.",
+	"temperature": 2.5,
+	"explosiveness": 2.0,
+	"heatCapacity": 0.5,
+	"flammability": 0.1,
+    "viscosity": 0.5,
+    "effect": "melting",
+    "color": "A00AC8"
+}

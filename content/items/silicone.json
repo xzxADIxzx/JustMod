@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Silicone",
+	"description": "[green]Good[] for sealing [accent]anything[].",
+	"hardness": 1,
+	"cost": 1.0,
+	"color": "464746"
+}

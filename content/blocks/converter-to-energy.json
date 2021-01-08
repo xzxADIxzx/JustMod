@@ -1,0 +1,40 @@
+type: NuclearReactor
+"name": "Converter to Energy"
+"description": "Converts an [orange]energy[] cell [accent]back[] to [orange]energy. [accent]Small losses due to overclocking reactor.[]"
+itemCapacity: 1
+liquidCapacity: 50
+health: 60
+size: 2
+itemDuration: 60 
+baseExplosiveness: 0
+heating: 0.01
+explosionRadius: 0
+explosionDamage: 0
+smokeThreshold: 1
+flashThreshold: 0.15
+layer: power
+buildCostMultiplier: 1
+powerProduction: 50
+consumes: {
+  items: {
+    items: [
+      energy-cell/1
+    ]
+  }
+
+  liquid: {
+    liquid: water
+    amount: 0.02
+  }
+}
+requirements: [
+  titanium/50
+  copper/20
+  iron/20
+]
+category: power
+research: converter-to-cell
+activeSound: thruster
+activeSoundVolume: 0.25
+idleSound: respawning
+idleSoundVolume: 0.25

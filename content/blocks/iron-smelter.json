@@ -1,0 +1,26 @@
+{
+	"type": "GenericSmelter",
+	"name": "Iron Smelter",
+	"description": "[orange]Melts[] [#ABABAB]iron[] contained in [accent]sand[].",
+	"outputItem": {"item": "iron", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 120,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.5
+		"items": {"items": [{ "item": "red-powder", "amount": 3 }
+				   ]}
+	},
+	"requirements": [
+		{ "item": "iron", "amount": 20 }
+		{ "item": "copper", "amount": 20 }
+		{ "item": "lead", "amount": 20 }
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

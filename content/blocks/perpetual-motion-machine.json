@@ -1,0 +1,41 @@
+type: NuclearReactor
+"name": "Perpetual Motion Machine"
+"description": "Uses [blue]Physics[], [green]Chemistry[], [#0096FF]Mathematics[] and [accent]pure[] [purple]Magic![]"
+itemCapacity: 1
+liquidCapacity: 1
+health: 42
+size: 3
+itemDuration: 60000000
+baseExplosiveness: 0
+heating: 0
+explosionRadius: 0
+explosionDamage: 0
+smokeThreshold: 1
+flashThreshold: 0.1
+layer: power
+buildCostMultiplier: 1
+powerProduction: 0.7
+consumes: {
+  items: {
+    items: [
+      silicon/1
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.0000000000001
+  }
+}
+requirements: [
+  cotton-wool/42
+  surge-alloy/1
+  phase-fabric/2
+  silicon/5
+  titanium/10
+]
+category: effect
+research: surge-reactor
+activeSound: thruster
+activeSoundVolume: 0.5
+idleSound: respawning
+idleSoundVolume: 0.25

@@ -1,0 +1,37 @@
+{
+	"type": "itemTurret",
+	"name": "Question?",
+	"description": "[orange]???[]",
+
+	"health": "42000000",
+	"size": "1",
+	"range": "336",
+	"ammoUseEffect": "none",
+	"inaccuracy": "0",
+	"rotateSpeed": "42",
+	"shootSound": "flame",
+	"maxAmmo": "42",
+
+	"ammoTypes": {
+	  "copper": {
+	    "speed": "42",
+	    "damage": "42000000",
+	    "bulletWidth": "3",
+	    "bulletHeight": "3",
+	    "shootEffect": "shootSmall",
+	    "smokeEffect": "shootSmallSmoke",
+	    "ammoMultiplier": "42"
+	  }
+	},
+
+	"requirements": [
+		{
+			"item": "copper",
+			"amount": "42"
+		}
+	],
+
+	"category": "turret",
+	"research": "duo",
+
+}

@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter",
+	"name": "Multi-Smelter",
+	"description": "[orange]Improved[] [accent]version[] of the [accent]Silicon Smelter[]. Uses [accent]energy[] to [orange]heat[] and [blue]water[] for [#20C7FF]cooling[].",
+	"liquidCapacity": 10,
+	"outputItem": {"item": "silicon", "amount": 2},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 36,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.25,
+		"items": {"items": [{ "item": "coal", "amount": 2 },
+			 	    { "item": "sand", "amount": 3 }
+				   ]}
+		"liquid": {"liquid": "water","amount": 0.10}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 125 }
+		{ "item": "graphite", "amount": 100 }
+		{ "item": "titanium", "amount": 100 }
+		{ "item": "silicon", "amount": 75 }
+	],
+	"category": "crafting",
+	"research": "multi-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 1
+}
