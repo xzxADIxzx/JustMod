@@ -1,6 +1,5 @@
-type: resource
 "name": "[#007F10]Uranium[]-247"
 "description": "A special kind of [#007F10]uranium[], extremely [accent]radioactive[]. Can be used in [green]nuclear[] [accent]power[]."
-hardness: 4
-radioactivity: 2
-color: 007F10
+"hardness": "4"
+"radioactivity": "2"
+"color": "007F10"

@@ -1,6 +1,5 @@
-type: material
 "name": "[#FFFF00]Gold[]"
 "description": "[orange]Valuable[] material on [accent]marketplace[]. [green]Excellent[] conductor of [orange]energy[]. Combines well with [accent]silicon[] to create [accent]microcircuits[]."
-hardness: 2
-cost: 0.7
-color: ffff00
+"hardness": "2"
+"cost": "0.7"
+"color": "ffff00"

@@ -1,7 +1,6 @@
-"type": "resource"
 "name": "[#007F10]Uranium[] [#1E641E]Sphere[]"
 "description": "[accent]Miniature[] [orange]atomic[] [red]bomb[]. In the [accent]center[] is [#007F10]uranium[], coated with [pink]thorium[], and around a plate of an [red]blast compound[]."
 "radioactivity": "3"
 "flammability": "0.0"
-"explosiveness": 1.75,
+"explosiveness": "1.75",
 "color": "1e641e"
