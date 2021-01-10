@@ -6,5 +6,6 @@
 	"flammability": 1,
     "viscosity": 0.0,
     "effect": "freezing",
-    "color": "0099FF"
+    "color": "0099FF",
+    "research": "water"
 }

@@ -7,5 +7,6 @@
 	"flammability": 0.1,
     "viscosity": 0.5,
     "effect": "melting",
-    "color": "A00AC8"
+    "color": "A00AC8",
+    "research": "water"
 }
