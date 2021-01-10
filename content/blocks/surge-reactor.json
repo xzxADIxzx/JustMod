@@ -6,9 +6,9 @@ liquidCapacity: 30
 health: 1500
 size: 5
 itemDuration: 180 
-baseExplosiveness: 0
+baseExplosiveness: 10000
 heating: 0.03
-explosionRadius: 250
+explosionRadius: 0
 explosionDamage: 7000
 smokeThreshold: 1
 flashThreshold: 0.15
