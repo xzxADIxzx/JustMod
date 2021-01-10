@@ -1,0 +1,10 @@
+{
+	"name": "(Y)",
+	"temperature": 0,
+	"explosiveness": 5,
+	"heatCapacity": 2.5,
+	"flammability": 1,
+    "viscosity": 0.0,
+    "effect": "freezing",
+    "color": "0099FF"
+}
