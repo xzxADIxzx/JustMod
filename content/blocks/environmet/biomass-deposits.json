@@ -1,5 +1,5 @@
-type: floor
+"type": "floor"
+"itemDrop": "biomass"
 "name": "[#008E00]Biomass[] Deposits"
-itemDrop: biomass
-variants: 5
-playerUnmineable: true
+"variants": "5"
+"playerUnmineable": "true"

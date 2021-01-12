@@ -1,5 +1,5 @@
-type: floor
-name: Red Sand
-itemDrop: red-powder
-variants: 5
-playerUnmineable: true
+"type": "floor"
+"itemDrop": "red-powder"
+"name": "Red Sand"
+"variants": "5"
+"playerUnmineable": "true"

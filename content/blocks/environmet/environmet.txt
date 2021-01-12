@@ -1,0 +1,8 @@
+"type": "OreBlock"
+"itemDrop": ""
+
+"type": "floor"
+"itemDrop": ""
+"name": ""
+"variants": ""
+"playerUnmineable": ""
