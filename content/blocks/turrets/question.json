@@ -13,7 +13,7 @@
 	"maxAmmo": "42",
 
 	"ammoTypes": {
-	  "copper": {
+	  "question-material": {
 	    "speed": "42",
 	    "damage": "42000000",
 	    "bulletWidth": "3",
@@ -26,7 +26,7 @@
 
 	"requirements": [
 		{
-			"item": "copper",
+			"item": "question-material",
 			"amount": "42"
 		}
 	],
