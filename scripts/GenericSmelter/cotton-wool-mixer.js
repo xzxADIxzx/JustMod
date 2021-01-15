@@ -6,4 +6,3 @@ var speed = 4.2;
 	  }
 	});
 	cottonWoolMixer.layer = Layer.turret;
-	cottonWoolMixer.localizedName = "cotton-wool-mixer";

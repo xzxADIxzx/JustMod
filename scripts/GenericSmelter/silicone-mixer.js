@@ -6,4 +6,3 @@ var speed = -0.5;
 	  }
 	});
 	siliconeMixer.layer = Layer.turret;
-	siliconeMixer.localizedName = "silicone-mixer";
