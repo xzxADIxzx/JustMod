@@ -6,7 +6,7 @@
 "drillTime": "300"
 "rotateSpeed": "4.2"
 "consumes": {
-	"power": 6,
+	"power": 5,
 	"liquid": {
 		"liquid": "water",
 		"amount": "0.2",
@@ -26,5 +26,5 @@
 ]
 "category": "production"
 "research": "blast-drill"
-"idleSound": "drill"
+"idleSound": "minebeam"
 "idleSoundVolume": "1"
