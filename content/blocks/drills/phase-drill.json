@@ -14,7 +14,7 @@
 	}
 }
 "hasLiquids":"true"
-"liquidCapacity": "0.4"
+"liquidCapacity": "24"
 "liquidBoostIntensity": "1.7321"
 "requirements": [
 	phase-fabric/"100",
