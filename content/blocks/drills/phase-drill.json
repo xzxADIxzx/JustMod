@@ -3,7 +3,7 @@
 "description": "Using [#007F10]uranium[] and [#FFD59]phase[] fabric, it [accent]melts[] the ore underneath and \"[accent]pulls[]\" it to the surface."
 "size": "5"
 "tier": "7"
-"drillTime": "12"
+"drillTime": "300"
 "rotateSpeed": "4.2"
 "consumes": {
 	"power": 6,
@@ -15,7 +15,7 @@
 }
 "hasLiquids":"true"
 "liquidCapacity": "0.4"
-"liquidBoostIntensity": "0.6"
+"liquidBoostIntensity": "1.7321"
 "requirements": [
 	phase-fabric/"100",
 	uranium/"100",
