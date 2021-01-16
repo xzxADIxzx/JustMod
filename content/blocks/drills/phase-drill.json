@@ -1,18 +1,13 @@
 "type": "Drill"
-"name": "[#FFD59#]Phase[] Drill"
-"description": "Using [#007F10]uranium[] and [#FFD59#]phase[] fabric, it [accent]melts[] the ore underneath and \"[accent]pulls[]\" it to the surface."
+"name": "[#FFD59]Phase[] Drill"
+"description": "Using [#007F10]uranium[] and [#FFD59]phase[] fabric, it [accent]melts[] the ore underneath and \"[accent]pulls[]\" it to the surface."
 "size": "5"
-"tier": "1"
+"tier": "7"
 "drillTime": "60"
 "rotateSpeed": "4.2"
 "consumes": {
-	"power": "6",
+	"power": 6,
 	"liquid": {
-		"liquid": "water",
-		"amount": "0.2",
-    	"booster": "true"
-	},
-	"cryofluid": {
 		"liquid": "water",
 		"amount": "0.2",
     	"booster": "true"
@@ -22,12 +17,12 @@
 "liquidCapacity": "0.4"
 "liquidBoostIntensity": "5"
 "requirements": [
-	"phase-fabric"/"100",
-	"uranium"/"100",
-	"surge-alloy"/"50",
-	"plastanium"/"50",
-	"force-material"/"20",
-	"iron"/"100",
+	phase-fabric/"100",
+	uranium/"100",
+	surge-alloy/"50",
+	plastanium/"50",
+	force-material/"20",
+	iron/"100",
 ]
 "category": "production"
 "research": "blast-drill"
