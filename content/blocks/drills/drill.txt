@@ -1,0 +1,25 @@
+"type": "Drill"
+"name": ""
+"description": ""
+"size": ""
+"tier": ""
+"drillTime": ""
+"rotateSpeed": ""
+"consumes": {
+	// "power": "",
+	// "liquid": {
+	// 	"liquid": "",
+	// 	"amount": "",
+	// 	"booster": ""
+	// }
+}
+"hasLiquids":""
+"liquidCapacity": ""
+"liquidBoostIntensity": ""
+"requirements": [
+	""/""
+]
+"category": "production"
+"research": ""
+"idleSound": ""
+"idleSoundVolume": ""
