@@ -4,7 +4,7 @@
 "size": "5"
 "tier": "7"
 "drillTime": "300"
-"rotateSpeed": "4.2"
+"rotateSpeed": "8"
 "consumes": {
 	"power": 5,
 	"liquid": {
