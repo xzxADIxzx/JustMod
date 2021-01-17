@@ -1,8 +1,8 @@
 var speed = -0.5;
 	const siliconeMixer = extendContent(GenericCrafter, "silicone-mixer", {
-	  drawLayer(tile){
-	  draw.rect(this.name + "-rotator", drawx(), drawy(), totalProgress * speed);
-	  draw.rect(this.name + "-top", drawx(), drawy(), 0);
-	  }
+		Draw.drawLayer(tile){
+		Draw.rect(this.name + "-rotator", Draw.drawx(), Draw.drawy(), this.totalProgress * speed);
+		Draw.rect(this.name + "-top", Draw.drawx(), Draw.drawy(), 0);
+		}
 	});
 	siliconeMixer.layer = Layer.turret;

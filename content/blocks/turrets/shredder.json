@@ -15,8 +15,6 @@
 		"scrap": {
 			"speed": "3.0",
 			"damage": "3",
-			"bulletWidth": "5",
-			"bulletHeight": "7",
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": "20"
@@ -24,8 +22,6 @@
 		"coal": {
 			"speed": "3.0",
 			"damage": "3",
-			"bulletWidth": "5",
-			"bulletHeight": "7",
 			"frontColor": "FFA500",
 			"backColor": "FFA500",
 			"status": "burning",
@@ -37,8 +33,6 @@
 		"metadust": {
 			"speed": "5.0",
 			"damage": "10",
-			"bulletWidth": "3",
-			"bulletHeight": "7",
 			"frontColor": "F5F5F5",
 			"backColor": "E1E1E1",
 			"shootEffect": "shootSmall",
