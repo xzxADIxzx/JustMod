@@ -1,4 +1,4 @@
-.gitignore
+*.gitignore
 *.psd
 JustMod.sublime-project
 JustMod.sublime-workspace
