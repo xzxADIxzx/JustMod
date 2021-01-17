@@ -11,8 +11,6 @@
 	"rotateSpeed": "42",
 	"shootSound": "flame",
 	"maxAmmo": "42",
-	"bulletWidth": "3",
-	"bulletHeight": "3",
 
 	"ammoTypes": {
 	  "question-material": {
