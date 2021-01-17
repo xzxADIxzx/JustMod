@@ -26,5 +26,4 @@
 ]
 "category": "production"
 "research": "blast-drill"
-"idleSound": "pulse" //minebeam
-"idleSoundVolume": "3"
+"sound": "pulse"

@@ -18,7 +18,5 @@
 		{ "item": "copper", "amount": 20 }
 	],
 	"category": "crafting",
-	"research": "silicone-mixer",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.2
+	"research": "silicone-mixer"
 }

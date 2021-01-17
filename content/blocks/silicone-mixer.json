@@ -21,7 +21,5 @@
 		{ "item": "copper", "amount": 20 }
 	],
 	"category": "crafting",
-	"research": "silicon-smelter",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "silicon-smelter"
 }

@@ -21,6 +21,4 @@
 	],
 	"category": "power",
 	"research": "silicon-smelter",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.25
 }

@@ -12,7 +12,6 @@ explosionRadius: 0
 explosionDamage: 0
 smokeThreshold: 1
 flashThreshold: 0.15
-layer: power
 buildCostMultiplier: 1
 powerProduction: 50
 consumes: {
@@ -34,7 +33,3 @@ requirements: [
 ]
 category: power
 research: converter-to-cell
-activeSound: thruster
-activeSoundVolume: 0.25
-idleSound: respawning
-idleSoundVolume: 0.25
