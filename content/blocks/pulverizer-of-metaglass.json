@@ -20,7 +20,5 @@
 		{ "item": "iron", "amount": 20 }
 	],
 	"category": "crafting",
-	"research": "kiln",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.25
+	"research": "kiln"
 }

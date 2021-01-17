@@ -23,7 +23,5 @@
 		{ "item": "iron", "amount": 20 }
 	],
 	"category": "crafting",
-	"research": "plastanium-compressor",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.25
+	"research": "plastanium-compressor"
 }

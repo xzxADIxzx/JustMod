@@ -22,7 +22,5 @@
 		{ "item": "lead", "amount": 50 }
 	],
 	"category": "effect",
-	"research": "core-shard",
-	"idleSound": "respawning",
-	"idleSoundVolume": 1.0
+	"research": "core-shard"
 }

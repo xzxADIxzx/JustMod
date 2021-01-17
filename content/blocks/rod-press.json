@@ -24,7 +24,5 @@
 		{ "item": "iron", "amount": 50 }
 	],
 	"category": "crafting",
-	"research": "graphite-press",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.25
+	"research": "graphite-press"
 }

@@ -24,7 +24,5 @@
 		{ "item": "silicon", "amount": 75 }
 	],
 	"category": "crafting",
-	"research": "multi-press",
-	"idleSound": "respawning",
-	"idleSoundVolume": 1
+	"research": "multi-press"
 }
