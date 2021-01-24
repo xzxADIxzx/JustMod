@@ -1,6 +1,6 @@
 "type": "Drill"
-"name": "[#FFD59]Phase[] Drill"
-"description": "Using [#007F10]uranium[] and [#FFD59]phase[] fabric, it [accent]melts[] the ore underneath and \"[accent]pulls[]\" it to the surface."
+"name": "[#FFD59E]Phase[] Drill"
+"description": "Using [#007F10]uranium[] and [#FFD59E]phase[] fabric, it [accent]melts[] the ore underneath and \"[accent]pulls[]\" it to the surface. \n The [blue]water[] is used to [#20C7FF]cool[] the ore."
 "size": "5"
 "tier": "7"
 "drillTime": "300"
