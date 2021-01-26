@@ -8,4 +8,4 @@
 	// siliconeMixer.layer = Layer.turret;
 
 const siliconeMixer = extendContent (GenericCrafter,"silicone-mixer",{});
-siliconeMixer.drawer = new DrawWeave();
+siliconeMixer.drawer = new DrawRotator();

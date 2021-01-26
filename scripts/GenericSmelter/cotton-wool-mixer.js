@@ -8,4 +8,4 @@
 	// cottonWoolMixer.layer = Layer.turret;
 
 const cottonWoolMixer = extendContent (GenericCrafter,"cotton-wool-mixer",{});
-cottonWoolMixer.drawer = new DrawMixer();
+cottonWoolMixer.drawer = new DrawRotator();
