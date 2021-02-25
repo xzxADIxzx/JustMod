@@ -5,8 +5,8 @@
 "hasPower": "true"
 "hasItems": "true"
 "hasLiquids": "false"
-"outputItem": { "item": "platinum", "amount": "1"}
-// "outputLiquid": { "liquid": "", "amount": ""}
+"outputItem": { "item": "platinum", "amount": "1" }
+// "outputLiquid": { "liquid": "", "amount": "" }
 // "liquidCapacity": ""
 "craftTime": "240"
 "updateEffect": "smeltsmoke"
@@ -17,11 +17,7 @@
 			"item": "copper",
 			"amount": "80" 
 		}
-	},
-	// "liquid": {
-		// "liquid": "",
-		// "amount": ""
-	// }
+	}
 }
 "requirements": [
 	iron/"20",
