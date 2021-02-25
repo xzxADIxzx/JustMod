@@ -1,6 +1,6 @@
 "type": "GenericSmelter"
 "name": "[#CDCDCD]Platinum[] Smelter"
-"description": "[orange]Copper[] contains a small amount of [#CDCDCD]platinum[]. About [cyan]0.1%[]!"
+"description": "[orange]Copper[] contains a small amount of [#CDCDCD]platinum[]. About [cyan]2.5%[]!"
 "size": "2"
 "hasPower": "true"
 "hasItems": "true"
@@ -16,7 +16,7 @@
 	"items": {
 		"items": [{
 			"item": "copper",
-			"amount": "80" 
+			"amount": "40" 
 		}]
 	}
 	// "liquid": {
