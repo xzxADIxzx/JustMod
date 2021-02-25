@@ -6,7 +6,7 @@
 "drillTime": ""
 "rotateSpeed": ""
 "consumes": {
-	// "power": "",
+	// "power": ,
 	// "liquid": {
 	// 	"liquid": "",
 	// 	"amount": "",

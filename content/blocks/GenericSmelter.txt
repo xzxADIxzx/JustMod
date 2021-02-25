@@ -11,7 +11,7 @@
 "craftTime": ""
 "updateEffect": "smeltsmoke"
 "consumes": {
-	// "power": "",
+	// "power": ,
 	// "items": {
 		// "items": { 
 			// "item": "",

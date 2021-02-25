@@ -11,7 +11,7 @@
 "craftTime": "240"
 "updateEffect": "smeltsmoke"
 "consumes": {
-	"power": "2",
+	"power": 2,
 	"items": {
 		"items": { 
 			"item": "copper",

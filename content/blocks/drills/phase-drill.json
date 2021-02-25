@@ -6,7 +6,7 @@
 "drillTime": "300"
 "rotateSpeed": "8"
 "consumes": {
-	"power": "5",
+	"power": 5,
 	"liquid": {
 		"liquid": "water",
 		"amount": "0.2",
