@@ -13,11 +13,15 @@
 "consumes": {
 	"power": 2,
 	"items": {
-		"items": { 
+		"items": [{
 			"item": "copper",
 			"amount": "80" 
-		}
+		}]
 	}
+	// "liquid": {
+		// "liquid": "",
+		// "amount": ""
+	// }
 }
 "requirements": [
 	iron/"20",

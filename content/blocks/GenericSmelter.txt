@@ -13,10 +13,10 @@
 "consumes": {
 	// "power": ,
 	// "items": {
-		// "items": { 
+		// "items": [{ 
 			// "item": "",
 			// "amount": "" 
-		// }
+		// }]
 	// },
 	// "liquid": {
 		// "liquid": "",
