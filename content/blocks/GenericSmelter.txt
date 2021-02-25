@@ -1,0 +1,30 @@
+"type": "GenericSmelter"
+"name": ""
+"description": ""
+"size": ""
+"hasPower": ""
+"hasItems": ""
+"hasLiquids": ""
+// "outputItem": { "item": "", "amount": ""}
+// "outputLiquid": { "liquid": "", "amount": ""}
+// "liquidCapacity": ""
+"craftTime": ""
+"updateEffect": "smeltsmoke"
+"consumes": {
+	// "power": "",
+	// "items": {
+		// "items": { 
+			// "item": "",
+			// "amount": "" 
+		// }
+	// },
+	// "liquid": {
+		// "liquid": "",
+		// "amount": ""
+	// }
+}
+"requirements": [
+	/""
+]
+"category": "crafting"
+"research": ""

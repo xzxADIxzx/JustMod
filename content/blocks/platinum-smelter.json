@@ -1,0 +1,32 @@
+"type": "GenericSmelter"
+"name": "[#CDCDCD]Platinum[] Smelter"
+"description": "[orange]Copper[] contains a small amount of [#CDCDCD]platinum[]. About [cyan]0.1%[]!"
+"size": "2"
+"hasPower": "true"
+"hasItems": "true"
+"hasLiquids": "false"
+"outputItem": { "item": "platinum", "amount": "1"}
+// "outputLiquid": { "liquid": "", "amount": ""}
+// "liquidCapacity": ""
+"craftTime": "240"
+"updateEffect": "smeltsmoke"
+"consumes": {
+	"power": "2",
+	"items": {
+		"items": { 
+			"item": "copper",
+			"amount": "80" 
+		}
+	},
+	// "liquid": {
+		// "liquid": "",
+		// "amount": ""
+	// }
+}
+"requirements": [
+	iron/"20",
+	titanium/"20",
+	lead/"20",
+]
+"category": "crafting"
+"research": "iron-smelter"
