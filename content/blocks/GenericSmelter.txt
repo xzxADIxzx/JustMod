@@ -5,9 +5,10 @@
 "hasPower": ""
 "hasItems": ""
 "hasLiquids": ""
+// "itemCapacity": ""
+// "liquidCapacity": ""
 // "outputItem": { "item": "", "amount": "" }
 // "outputLiquid": { "liquid": "", "amount": "" }
-// "liquidCapacity": ""
 "craftTime": ""
 "updateEffect": "smeltsmoke"
 "consumes": {
