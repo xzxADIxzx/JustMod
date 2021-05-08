@@ -1,0 +1,73 @@
+"name": ""
+"description": ""
+"type": "" // payload / legs
+"armor": ""
+"health": ""
+"immunities": [
+  ""
+]
+"speed": ""
+"maxVelocity": ""
+"rotateSpeed": ""
+"accel": ""
+"drag": ""
+"mass": ""
+"flying": "" // true/false
+"lowAltitude": "" // true/false
+"commandLimit": ""
+"engineOffset": ""
+"engineSize": ""
+"rotateShooting": "" // true/false
+"hitSize": ""
+"payloadCapacity": ""
+"buildSpeed": ""
+"range": ""
+"targeAir": "" // true/false
+"ammoCapacity": ""
+"ammoResuplyAmount": ""
+"research": ""
+"weapons":[
+	{
+		"name": "",
+		"top": "", // true/false
+		"x": "",
+		"y": "",
+		"mirror": "", // true/false
+		"reload": "",
+		"recoil": "",
+		"rotate": "", // true/false
+		"shots": "",
+		"minShootVelocity": "",
+		"soundPitchMin": "1",
+		"shootSound": "",
+		"velocityRnd": "",
+		"inaccuracy": "",
+		"alternate": "", // true/false
+		"ejectEffect": "",
+		"bullet": {
+			"width": "",
+			"height": "",
+			"range": "",
+			"ignoreRotation": "", // true/false
+			"hitSound": "",
+			"shootCone": "",
+			"despawnShake": "",
+			"collidesAir": "", // true/false
+			"lifetime": "",
+			"despawnEffect": "",
+			"hitEffect": "",
+			"keepVelocity": "", // true/false
+			"spin": "",
+			"shrinkY": "",
+			"shrinkX": "",
+			"speed": "",
+			"collides": "", // true/false
+			"healPercent": "",
+			"splashDamage": "",
+			"splashDamageRadius": "",
+			"hitColor": "",
+    		"color": "",
+    		"knockback": ""
+		}
+	}
+]
