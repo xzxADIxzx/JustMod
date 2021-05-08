@@ -20,6 +20,7 @@
 "rotateShooting": "" // true/false
 "hitSize": ""
 "payloadCapacity": ""
+"itemCapacity": "0"
 "buildSpeed": ""
 "range": ""
 "targeAir": "" // true/false
