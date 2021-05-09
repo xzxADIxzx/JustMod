@@ -1,10 +1,25 @@
-// "plans": [
-// 	{
-// 		"unit": "construction-drone",
-// 		"requirements": [
-// 			cotton-wool/"15",
-// 			copper/"15",
-// 		],
-// 		"time": "600"
-// 	}
-// ]
+"plans": [
+	{
+		"unit": "falre",
+		"requirements": [
+			silicon/"15"
+		],
+		"time": "900"
+	}
+	{
+		"unit": "mono",
+		"requirements": [
+			silicon/"30",
+			lead/"15"
+		],
+		"time": "2100"
+	}
+	{
+		"unit": "construction-drone",
+		"requirements": [
+			cotton-wool/"15",
+			copper/"15",
+		],
+		"time": "600"
+	}
+]

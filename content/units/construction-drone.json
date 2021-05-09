@@ -6,7 +6,7 @@
 "maxVelocity": "10"
 "rotateSpeed": "20"
 "accel": "1"
-"drag": "10"
+"drag": "1"
 "mass": "0.5"
 "flying": "true"
 "lowAltitude": "false"
