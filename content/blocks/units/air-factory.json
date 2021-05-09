@@ -1,10 +1,10 @@
-"plans": [
-	{
-		"unit": "construction-drone",
-		"requirements": [
-			cotton-wool/"15",
-			copper/"15",
-		],
-		"time": "600"
-	}
-]
+// "plans": [
+// 	{
+// 		"unit": "construction-drone",
+// 		"requirements": [
+// 			cotton-wool/"15",
+// 			copper/"15",
+// 		],
+// 		"time": "600"
+// 	}
+// ]
