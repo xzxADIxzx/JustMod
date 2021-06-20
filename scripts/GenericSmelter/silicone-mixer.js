@@ -7,5 +7,5 @@
 	// });
 	// siliconeMixer.layer = Layer.turret;
 
-const siliconeMixer = extendContent (GenericCrafter,"silicone-mixer",{});
+const siliconeMixer = extendContent (GenericCrafter, "silicone-mixer", {});
 siliconeMixer.drawer = new DrawRotator();
