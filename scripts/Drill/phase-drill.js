@@ -1,3 +1,3 @@
-const cottonWoolMixer = extendContent (NuclearReactor, "surge-reactor", {});
+const cottonWoolMixer = extendContent (Drill, "phase-drill", {});
 cottonWoolMixer.ambientSound  = Sounds.pulse;
 cottonWoolMixer.ambientSoundVolume = 1;
