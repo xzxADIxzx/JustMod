@@ -1,7 +1,5 @@
 {
 	"type": "GenericCrafter",
-	"name": "Rod Press",
-	"description": "[accent]Compresses[] [#007F10]uranium[] into a [#007005]rod[] and [accent]covers[] with [pink]thorium[].",
 	"outputItem": {"item": "uranium-rod", "amount": 1},
 	"size": 2,
 	"hasPower": true,

@@ -1,6 +1,4 @@
 "type": "Drill"
-"name": ""
-"description": ""
 "size": ""
 "tier": ""
 "drillTime": ""

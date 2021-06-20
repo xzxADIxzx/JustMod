@@ -18,7 +18,7 @@
 		"unit": "construction-drone",
 		"requirements": [
 			cotton-wool/"15",
-			copper/"15",
+			iron/"15",
 		],
 		"time": "600"
 	}

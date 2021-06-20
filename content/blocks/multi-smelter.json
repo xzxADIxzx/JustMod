@@ -1,7 +1,5 @@
 {
 	"type": "GenericSmelter",
-	"name": "Multi-Smelter",
-	"description": "[orange]Improved[] [accent]version[] of the [accent]Silicon Smelter[]. Uses [accent]energy[] to [orange]heat[] and [blue]water[] for [#20C7FF]cooling[].",
 	"liquidCapacity": 10,
 	"outputItem": {"item": "silicon", "amount": 2},
 	"size": 3,

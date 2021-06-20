@@ -1,6 +1,4 @@
 type: NuclearReactor
-"name": "Converter to Energy"
-"description": "Converts an [orange]energy[] cell [accent]back[] to [orange]energy. [accent]Small losses due to overclocking reactor.[]"
 itemCapacity: 1
 liquidCapacity: 50
 health: 60

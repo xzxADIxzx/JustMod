@@ -1,7 +1,5 @@
 {
 	"type": "GenericSmelter",
-	"name": "Kitchen",
-	"description": "In this [accent]cauldron[] you can [accent]cook[] the most [green]wonderful[] [orange]dish![]",
 	"liquidCapacity": 30,
 	"outputLiquid": {"liquid": "bla-bla-bla", "amount": 30},
 	"size": 4,

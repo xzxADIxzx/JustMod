@@ -1,7 +1,5 @@
 {
 	"type": "GenericCrafter",
-	"name": "Microcircuits Factory",
-	"description": "[accent]Silicon[] processors included. [accent]Electricity[] runs along [gold]golden[] [accent]paths[].",
 	"outputItem": {"item": "microcircuit", "amount": 1},
 	"size": 2,
 	"hasPower": true,

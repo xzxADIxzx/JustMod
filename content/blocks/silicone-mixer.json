@@ -1,6 +1,4 @@
 {
-	"name": "Silicone Mixer",
-	"description": "Stirring some [accent]strange[] mixture.",
 	"liquidCapacity": 50,
 	"outputItem": {"item": "silicone", "amount": 1},
 	"size": 2,

@@ -1,6 +1,4 @@
 "type": "GenericSmelter"
-"name": ""
-"description": ""
 "size": ""
 "hasPower": ""
 "hasItems": ""

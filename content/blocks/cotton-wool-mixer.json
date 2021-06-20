@@ -1,6 +1,4 @@
 {
-	"name": "[#F0F0F0]Cotton[] Wool Mixer",
-	"description": "Creates [#F0F0F0]cotton[] wool using [purple]magic[].",
 	"liquidCapacity": 0,
 	"outputItem": {"item": "cotton-wool", "amount": 1},
 	"size": 2,

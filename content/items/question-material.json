@@ -1,7 +1,7 @@
-"name": "Question Material?",
-"description": "[orange]???[]",
-"hardness": 3,
-"radioactivity": 0.2,
-"cost": 0.5,
 "color": "F0F2F5"
+"radioactivity": "0.2"
+// "flammability": "0"
+// "explosiveness": "0"
+"cost": "0.5"
+"hardness": "3"
 "research": "copper"

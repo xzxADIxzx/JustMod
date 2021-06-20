@@ -1,5 +1,3 @@
-"name": ""
-"description": ""
 "color": "000000"
 // "radioactivity": "0"
 // "flammability": "0"

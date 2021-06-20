@@ -1,7 +1,5 @@
 {
 	"type": "GenericSmelter",
-	"name": "Converter to Cell",
-	"description": "Converts [orange]energy[] into an [orange]energy[] cell for [accent]easy[] movement.",
 	"liquidCapacity": 50,
 	"outputItem": {"item": "energy-cell", "amount": 1},
 	"size": 2,

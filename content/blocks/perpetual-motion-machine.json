@@ -1,6 +1,4 @@
 "type": "NuclearReactor"
-"name": "Perpetual Motion Machine"
-"description": "Uses [blue]Physics[], [green]Chemistry[], [#0096FF]Mathematics[] and [accent]pure[] [purple]Magic![]"
 itemCapacity: 1
 liquidCapacity: 1
 health: 42

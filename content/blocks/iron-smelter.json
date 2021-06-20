@@ -1,7 +1,5 @@
 {
 	"type": "GenericSmelter",
-	"name": "Iron Smelter",
-	"description": "[orange]Melts[] [#ABABAB]iron[] contained in [accent]sand[].",
 	"outputItem": {"item": "iron", "amount": 1},
 	"size": 2,
 	"hasPower": true,

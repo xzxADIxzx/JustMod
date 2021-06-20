@@ -1,6 +1,7 @@
-"name": "Silicone",
-"description": "[green]Good[] for sealing [accent]anything[].",
-"hardness": "1",
-"cost": "1.0",
 "color": "464746"
+// "radioactivity": "0"
+// "flammability": "0"
+// "explosiveness": "0"
+"cost": "1"
+"hardness": "1"
 "research": "silicon"

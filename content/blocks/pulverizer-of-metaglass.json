@@ -1,7 +1,5 @@
 {
 	"type": "GenericCrafter",
-	"name": "Pulverizer of Metaglass",
-	"description": "[accent]Pulverizing[] metaglass to dust.",
 	"outputItem": {"item": "metadust", "amount": 1},
 	"size": 2,
 	"hasPower": true,

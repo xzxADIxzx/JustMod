@@ -1,8 +1,5 @@
 {
 	"type": "itemTurret",
-	"name": "Question?",
-	"description": "[orange]???[]",
-
 	"health": "42000000",
 	"size": "1",
 	"range": "336",

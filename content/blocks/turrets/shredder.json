@@ -1,8 +1,5 @@
 {
 	"type": "itemTurret",
-	"name": "Shredder",
-	"description": "Small turret made out of scrap. From [orange]ReFactorium[].",
-
 	"size": "1",
 	"health": "128",
 	"range": "100",

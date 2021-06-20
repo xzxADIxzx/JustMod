@@ -3,6 +3,6 @@
 
 "type": "Floor"
 "itemDrop": ""
-"name": ""
+
 "variants": ""
 "playerUnmineable": ""

@@ -1,6 +1,4 @@
 "type": "NuclearReactor"
-"name": "Surge Reactor"
-"description": "Uses the [accent]properties[] of a [yellow]surge allloy[] and [#007F10]uranium[] [#007005]rod[] to [accent]create[] a [orange]huge[] amount of [accent]energy[]."
 itemCapacity: 7
 liquidCapacity: 30
 health: 1500

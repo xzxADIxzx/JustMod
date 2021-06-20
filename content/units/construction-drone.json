@@ -1,5 +1,3 @@
-"name": "Construction drone"
-"description": "Specially designed to [green]help[] [orange]build[]. Just click the [accent]\"Command Group\"[] button.\n[red]Not intended for player control.[]"
 "type": "payload"
 "health": "100"
 "speed": "3"
