@@ -1,0 +1,17 @@
+"type": "ArtilleryBulletType",
+"damage": "",
+"splashDamage": "",
+"splashDamageRadius": "",
+"speed": "",
+"lifetime": "",
+"hitSize": "",
+"hitShake": "",
+"width": "",
+"height": "",
+"backColor": "",
+"frontColor": "",
+"hitEffect": "", // sapExplosion
+"despawnEffect": "",
+"status": "", // sporeSlowed
+"statusDuration": "",
+"fragBullet": {}

@@ -1,4 +1,4 @@
-"type": "legs" // payload / legs
+"type": "legs"
 "speed": "1"
 "health": "1000"
 "drag": "0.2"
@@ -12,7 +12,7 @@
 "hovering": "true"
 "allowLegStep": "true"
 "visualElevation": "0.2"
-"weapons":[
+"weapons": [
 	{
 		"name": "something",
 		"top": "true", // true/false
@@ -28,22 +28,56 @@
 		"shootSound": "spark",
 		"bullet": {
 			"type": "ArtilleryBulletType",
-			"splashDamage": "200",
-			"splashDamageRadius": "200",
-			"lenght": "1000",
-			"widht": "500",
-			"ammoMultiplier": "1",
-			"backColor": "000000",
-			"frontColor": "FFFFFF",
+			"damage": "10",
+			"splashDamage": "20",
+			"splashDamageRadius": "30",
+			"speed": "10",
+			"lifetime": "20",
+			"hitSize": "30",
+			"hitShake": "40",
+			"width": "10",
+			"height": "20",
+			"backColor": "826ED2",
+			"frontColor": "C8A0F0",
+			"hitEffect": "sapExplosion",
+			"despawnEffect": "sapExplosion",
+			"status": "sporeSlowed",
+			"statusDuration": "60",
 			"fragBullet": {
 				"type": "ArtilleryBulletType",
-				"splashDamage": "100",
-				"splashDamageRadius": "100",
-				"lenght": "100",
-				"widht": "50",
-				"ammoMultiplier": "10",
-				"backColor": "000000",
-				"frontColor": "FFFFFF",
+				"damage": "10",
+				"splashDamage": "20",
+				"splashDamageRadius": "30",
+				"speed": "10",
+				"lifetime": "20",
+				"hitSize": "30",
+				"hitShake": "40",
+				"width": "5",
+				"height": "10",
+				"backColor": "826ED2",
+				"frontColor": "C8A0F0",
+				"hitEffect": "sapExplosion",
+				"despawnEffect": "sapExplosion",
+				"status": "sporeSlowed",
+				"statusDuration": "60",
+				"fragBullet": {
+					"type": "ArtilleryBulletType",
+					"damage": "10",
+					"splashDamage": "20",
+					"splashDamageRadius": "30",
+					"speed": "10",
+					"lifetime": "20",
+					"hitSize": "30",
+					"hitShake": "40",
+					"width": "2",
+					"height": "5",
+					"backColor": "826ED2",
+					"frontColor": "C8A0F0",
+					"hitEffect": "sapExplosion",
+					"despawnEffect": "sapExplosion",
+					"status": "sporeSlowed",
+					"statusDuration": "60",
+				}
 			}
 		}
 	}

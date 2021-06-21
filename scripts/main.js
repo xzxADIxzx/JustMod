@@ -1,4 +1,4 @@
 require ("mod")
-require ("Drill/phase-drill");
-require ("GenericSmelter/silicone-mixer");
-require ("GenericSmelter/cotton-wool-mixer");
+require ("drill/phase-drill");
+require ("generic-smelter/silicone-mixer");
+require ("generic-smelter/cotton-wool-mixer");
