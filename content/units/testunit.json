@@ -46,9 +46,9 @@
 		}
 	}
 ]
-"research": {
-	"parent": "crawler",
-	"requirements": [
-		/""
-	]
-}
+// "research": {
+// 	"parent": "crawler",
+// 	"requirements": [
+// 		/""
+// 	]
+// }

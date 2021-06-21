@@ -22,4 +22,13 @@
 		],
 		"time": "600"
 	}
+
+	// Temp
+	{
+		"unit": "testunit",
+		"requirements": [
+			copper/"15"
+		],
+		"time": "120"
+	}
 ]
