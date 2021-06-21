@@ -1,3 +1,3 @@
-const cottonWoolMixer = extendContent (Drill, "phase-drill", {});
-cottonWoolMixer.ambientSound  = Sounds.pulse;
-cottonWoolMixer.ambientSoundVolume = .05;
+const phaseDrill = extendContent(Drill, "phase-drill", {});
+phaseDrill.ambientSound  = Sounds.pulse;
+phaseDrill.ambientSoundVolume = .001;

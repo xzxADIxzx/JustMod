@@ -1,0 +1,54 @@
+"type": "legs" // payload / legs
+"speed": "1"
+"health": "1000"
+"drag": "0.2"
+"hitSize": "10"
+"targetAir": "true"
+"legCount": "8"
+"legLength": "10"
+"legTrns": "0.4"
+"legMoveSpace": "1.2"
+"armor": "10"
+"hovering": "true"
+"allowLegStep": "true"
+"visualElevation": "0.2"
+"weapons":[
+	{
+		"name": "something",
+		"top": "true", // true/false
+		"x": "0",
+		"y": "-5",
+		"shake": "2",
+		"reload": "55",
+		"shotDelay": "3",
+		"alternate": "true", // true/false
+		"shots": "1",
+		"inaccuracy": "10",
+		"ejectEffect": "none",
+		"shootSound": "spark",
+		"bullet": {
+			"type": "ShrapnelBulletType",
+			"damage": "200",
+			"lenght": "100",
+			"widht": "50",
+			"lightningColor": "bf92f9",
+			"lightningLength": "10",
+			"collidesAir": "false", // true/false
+			"collidesGround": "true", // true/false
+			"serrationLenScl": "7",
+			"serrationSpaceOffset": "60",
+			"serrationFadeOffset": "0",
+			"serrations": "10",
+			"serrationWidth": "6",
+			"fromColor": "000000",
+			"toColor": "FFFFFF",
+			// shootEffect: ""
+		}
+	}
+]
+"research": {
+	"parent": "crawler",
+	"requirements": [
+		/""
+	]
+}
