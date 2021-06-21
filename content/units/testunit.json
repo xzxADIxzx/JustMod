@@ -27,22 +27,24 @@
 		"ejectEffect": "none",
 		"shootSound": "spark",
 		"bullet": {
-			"type": "ShrapnelBulletType",
-			"damage": "200",
+			"type": "ArtilleryBulletType",
+			"splashDamage": "200",
+			"splashDamageRadius": "200",
 			"lenght": "100",
 			"widht": "50",
-			"lightningColor": "bf92f9",
-			"lightningLength": "10",
-			"collidesAir": "false", // true/false
-			"collidesGround": "true", // true/false
-			"serrationLenScl": "7",
-			"serrationSpaceOffset": "60",
-			"serrationFadeOffset": "0",
-			"serrations": "10",
-			"serrationWidth": "6",
-			"fromColor": "000000",
-			"toColor": "FFFFFF",
-			// shootEffect: ""
+			"ammoMultiplier": "1",
+			"backColor": "000000",
+			"frontColor": "FFFFFF",
+			"bullet": {
+				"type": "ArtilleryBulletType",
+				"splashDamage": "100",
+				"splashDamageRadius": "100",
+				"lenght": "10",
+				"widht": "5",
+				"ammoMultiplier": "10",
+				"backColor": "000000",
+				"frontColor": "FFFFFF",
+			}
 		}
 	}
 ]
