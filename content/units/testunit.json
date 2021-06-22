@@ -17,10 +17,10 @@
 		"name": "something",
 		"top": "true", // true/false
 		"x": "0",
-		"y": "-5",
+		"y": "-10",
 		"shake": "2",
 		"reload": "100",
-		"shotDelay": "3",
+		"shotDelay": "10",
 		"alternate": "true", // true/false
 		"shots": "1",
 		"inaccuracy": "10",
@@ -32,7 +32,7 @@
 			"splashDamage": "20",
 			"splashDamageRadius": "30",
 			"speed": "5",
-			"lifetime": "20",
+			"lifetime": "100",
 			"hitSize": "100",
 			"hitShake": "10",
 			"width": "42",
@@ -43,13 +43,15 @@
 			"despawnEffect": "sapExplosion",
 			"status": "sporeSlowed",
 			"statusDuration": "60",
+			"lightning": "5",
+			"lightningLength": "20",
 			"fragBullet": {
 				"type": "ArtilleryBulletType",
 				"damage": "10",
 				"splashDamage": "20",
 				"splashDamageRadius": "30",
 				"speed": "3",
-				"lifetime": "20",
+				"lifetime": "50",
 				"hitSize": "50",
 				"hitShake": "5",
 				"width": "20",
@@ -66,7 +68,7 @@
 					"splashDamage": "20",
 					"splashDamageRadius": "30",
 					"speed": "1",
-					"lifetime": "20",
+					"lifetime": "10",
 					"hitSize": "12",
 					"hitShake": "0",
 					"width": "5",
@@ -82,12 +84,12 @@
 		}
 	}
 	{
-		"name": "something2",
+		"name": "eyes_front",
 		"top": "false", // true/false
-		"x": "10",
-		"y": "0",
+		"x": "5",
+		"y": "5",
 		"shake": "2",
-		"reload": "55",
+		"reload": "10",
 		"shotDelay": "3",
 		"alternate": "true", // true/false
 		"shots": "1",
@@ -97,7 +99,48 @@
 		"mirror": "true",
 		"bullet": {
 			"type": "SapBulletType",
-			"damage": "42"
+			"damage": "42",
+			"range": "100"
+		}
+	}
+	{
+		"name": "eyes_middle",
+		"top": "false", // true/false
+		"x": "10",
+		"y": "0",
+		"shake": "2",
+		"reload": "10",
+		"shotDelay": "3",
+		"alternate": "true", // true/false
+		"shots": "1",
+		"inaccuracy": "10",
+		"ejectEffect": "none",
+		"shootSound": "spark",
+		"mirror": "true",
+		"bullet": {
+			"type": "SapBulletType",
+			"damage": "42",
+			"range": "100"
+		}
+	}
+	{
+		"name": "eyes_back",
+		"top": "false", // true/false
+		"x": "15",
+		"y": "-5",
+		"shake": "2",
+		"reload": "10",
+		"shotDelay": "3",
+		"alternate": "true", // true/false
+		"shots": "1",
+		"inaccuracy": "10",
+		"ejectEffect": "none",
+		"shootSound": "spark",
+		"mirror": "true",
+		"bullet": {
+			"type": "SapBulletType",
+			"damage": "42",
+			"range": "100"
 		}
 	}
 ]
