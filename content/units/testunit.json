@@ -31,7 +31,7 @@
 			"damage": "10",
 			"splashDamage": "20",
 			"splashDamageRadius": "30",
-			"speed": "10",
+			"speed": "5",
 			"lifetime": "20",
 			"hitSize": "30",
 			"hitShake": "40",
@@ -48,7 +48,7 @@
 				"damage": "10",
 				"splashDamage": "20",
 				"splashDamageRadius": "30",
-				"speed": "10",
+				"speed": "3",
 				"lifetime": "20",
 				"hitSize": "30",
 				"hitShake": "40",
@@ -65,7 +65,7 @@
 					"damage": "10",
 					"splashDamage": "20",
 					"splashDamageRadius": "30",
-					"speed": "10",
+					"speed": "1",
 					"lifetime": "20",
 					"hitSize": "30",
 					"hitShake": "40",
@@ -79,6 +79,24 @@
 					"statusDuration": "60",
 				}
 			}
+		}
+	}
+	{
+		"name": "something",
+		"top": "false", // true/false
+		"x": "0",
+		"y": "-5",
+		"shake": "2",
+		"reload": "55",
+		"shotDelay": "3",
+		"alternate": "true", // true/false
+		"shots": "1",
+		"inaccuracy": "10",
+		"ejectEffect": "none",
+		"shootSound": "spark",
+		"bullet": {
+			"type": "LaserBoltBulletType",
+			"damage": "42"
 		}
 	}
 ]
