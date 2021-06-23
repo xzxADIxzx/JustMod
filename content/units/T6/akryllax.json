@@ -84,7 +84,7 @@
 	// 	}
 	// }
 	{
-		"name": "eyes_front",
+		"name": "eyes_front_right",
 		"top": "false", // true/false
 		"x": "5",
 		"y": "5",
@@ -97,15 +97,36 @@
 		"inaccuracy": "0",
 		"ejectEffect": "none",
 		"shootSound": "tractorbeam",
-		"mirror": "true",
+		"mirror": "false",
 		"bullet": {
 			"type": "SapBulletType",
 			"damage": "42",
-			"length": "100"
+			"length": "1000"
 		}
 	}
 	{
-		"name": "eyes_middle",
+		"name": "eyes_front_left",
+		"top": "false", // true/false
+		"x": "-5",
+		"y": "5",
+		"shake": "0",
+		"reload": "1",
+		"rotate": "true",
+		"shotDelay": "3",
+		"alternate": "true", // true/false
+		"shots": "1",
+		"inaccuracy": "0",
+		"ejectEffect": "none",
+		"shootSound": "tractorbeam",
+		"mirror": "false",
+		"bullet": {
+			"type": "SapBulletType",
+			"damage": "42",
+			"length": "1000"
+		}
+	}
+	{
+		"name": "eyes_middle_right",
 		"top": "false", // true/false
 		"x": "10",
 		"y": "0",
@@ -118,15 +139,36 @@
 		"inaccuracy": "0",
 		"ejectEffect": "none",
 		"shootSound": "tractorbeam",
-		"mirror": "true",
+		"mirror": "false",
 		"bullet": {
 			"type": "SapBulletType",
 			"damage": "42",
-			"length": "100"
+			"length": "1000"
 		}
 	}
 	{
-		"name": "eyes_back",
+		"name": "eyes_middle_left",
+		"top": "false", // true/false
+		"x": "-10",
+		"y": "0",
+		"shake": "2",
+		"reload": "1",
+		"rotate": "true",
+		"shotDelay": "3",
+		"alternate": "true", // true/false
+		"shots": "1",
+		"inaccuracy": "0",
+		"ejectEffect": "none",
+		"shootSound": "tractorbeam",
+		"mirror": "false",
+		"bullet": {
+			"type": "SapBulletType",
+			"damage": "42",
+			"length": "1000"
+		}
+	}
+	{
+		"name": "eyes_back_right",
 		"top": "false", // true/false
 		"x": "15",
 		"y": "-5",
@@ -139,11 +181,32 @@
 		"inaccuracy": "0",
 		"ejectEffect": "none",
 		"shootSound": "tractorbeam",
-		"mirror": "true",
+		"mirror": "false",
 		"bullet": {
 			"type": "SapBulletType",
 			"damage": "42",
-			"length": "100"
+			"length": "1000"
+		}
+	}
+	{
+		"name": "eyes_back_left",
+		"top": "false", // true/false
+		"x": "-15",
+		"y": "-5",
+		"shake": "2",
+		"reload": "1",
+		"rotate": "true",
+		"shotDelay": "3",
+		"alternate": "true", // true/false
+		"shots": "1",
+		"inaccuracy": "0",
+		"ejectEffect": "none",
+		"shootSound": "tractorbeam",
+		"mirror": "false",
+		"bullet": {
+			"type": "SapBulletType",
+			"damage": "42",
+			"length": "1000"
 		}
 	}
 ]
