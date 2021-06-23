@@ -88,14 +88,14 @@
 		"top": "false", // true/false
 		"x": "5",
 		"y": "5",
-		"shake": "2",
-		"reload": "10",
+		"shake": "0",
+		"reload": "1",
 		"shotDelay": "3",
 		"alternate": "true", // true/false
 		"shots": "1",
-		"inaccuracy": "10",
+		"inaccuracy": "0",
 		"ejectEffect": "none",
-		"shootSound": "spark",
+		"shootSound": "tractorbeam",
 		"mirror": "true",
 		"bullet": {
 			"type": "SapBulletType",
@@ -109,13 +109,13 @@
 		"x": "10",
 		"y": "0",
 		"shake": "2",
-		"reload": "10",
+		"reload": "1",
 		"shotDelay": "3",
 		"alternate": "true", // true/false
 		"shots": "1",
-		"inaccuracy": "10",
+		"inaccuracy": "0",
 		"ejectEffect": "none",
-		"shootSound": "spark",
+		"shootSound": "tractorbeam",
 		"mirror": "true",
 		"bullet": {
 			"type": "SapBulletType",
@@ -129,13 +129,13 @@
 		"x": "15",
 		"y": "-5",
 		"shake": "2",
-		"reload": "10",
+		"reload": "1",
 		"shotDelay": "3",
 		"alternate": "true", // true/false
 		"shots": "1",
-		"inaccuracy": "10",
+		"inaccuracy": "0",
 		"ejectEffect": "none",
-		"shootSound": "spark",
+		"shootSound": "tractorbeam",
 		"mirror": "true",
 		"bullet": {
 			"type": "SapBulletType",
