@@ -84,7 +84,7 @@
 	// 	}
 	// }
 	{
-		"name": "eyes_front_right",
+		"name": "eye", // front right
 		"top": "false", // true/false
 		"x": "5",
 		"y": "5",
@@ -100,12 +100,12 @@
 		"mirror": "false",
 		"bullet": {
 			"type": "SapBulletType",
-			"damage": "42",
-			"length": "1000"
+			"damage": "80",
+			"length": "300"
 		}
 	}
 	{
-		"name": "eyes_front_left",
+		"name": "eye",  // front left
 		"top": "false", // true/false
 		"x": "-5",
 		"y": "5",
@@ -121,12 +121,12 @@
 		"mirror": "false",
 		"bullet": {
 			"type": "SapBulletType",
-			"damage": "42",
-			"length": "1000"
+			"damage": "80",
+			"length": "300"
 		}
 	}
 	{
-		"name": "eyes_middle_right",
+		"name": "eye", // middle right
 		"top": "false", // true/false
 		"x": "10",
 		"y": "0",
@@ -142,12 +142,12 @@
 		"mirror": "false",
 		"bullet": {
 			"type": "SapBulletType",
-			"damage": "42",
-			"length": "1000"
+			"damage": "80",
+			"length": "300"
 		}
 	}
 	{
-		"name": "eyes_middle_left",
+		"name": "eye", // middle left
 		"top": "false", // true/false
 		"x": "-10",
 		"y": "0",
@@ -163,12 +163,12 @@
 		"mirror": "false",
 		"bullet": {
 			"type": "SapBulletType",
-			"damage": "42",
-			"length": "1000"
+			"damage": "80",
+			"length": "300"
 		}
 	}
 	{
-		"name": "eyes_back_right",
+		"name": "eye", // back right
 		"top": "false", // true/false
 		"x": "15",
 		"y": "-5",
@@ -184,12 +184,12 @@
 		"mirror": "false",
 		"bullet": {
 			"type": "SapBulletType",
-			"damage": "42",
-			"length": "1000"
+			"damage": "80",
+			"length": "300"
 		}
 	}
 	{
-		"name": "eyes_back_left",
+		"name": "eye", // back left
 		"top": "false", // true/false
 		"x": "-15",
 		"y": "-5",
@@ -205,8 +205,8 @@
 		"mirror": "false",
 		"bullet": {
 			"type": "SapBulletType",
-			"damage": "42",
-			"length": "1000"
+			"damage": "80",
+			"length": "300"
 		}
 	}
 ]
