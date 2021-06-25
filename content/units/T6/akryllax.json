@@ -17,10 +17,11 @@
 		"name": "akryllax-cannon",
 		"top": "true", // true/false
 		"x": "0",
-		"y": "-15",
+		"y": "-20",
 		"shake": "2",
 		"reload": "100",
 		"shotDelay": "10",
+		"rotate": "true",
 		"alternate": "true", // true/false
 		"shots": "1",
 		"inaccuracy": "10",
@@ -87,7 +88,7 @@
 		"name": "akryllax-eye", // front right
 		"top": "false", // true/false
 		"x": "5",
-		"y": "5",
+		"y": "25",
 		"shake": "0",
 		"reload": "1",
 		"rotate": "true",
@@ -108,7 +109,7 @@
 		"name": "akryllax-eye",  // front left
 		"top": "false", // true/false
 		"x": "-5",
-		"y": "5",
+		"y": "25",
 		"shake": "0",
 		"reload": "1",
 		"rotate": "true",
@@ -129,7 +130,7 @@
 		"name": "akryllax-eye", // middle right
 		"top": "false", // true/false
 		"x": "10",
-		"y": "0",
+		"y": "20",
 		"shake": "2",
 		"reload": "1",
 		"rotate": "true",
@@ -150,7 +151,7 @@
 		"name": "akryllax-eye", // middle left
 		"top": "false", // true/false
 		"x": "-10",
-		"y": "0",
+		"y": "20",
 		"shake": "2",
 		"reload": "1",
 		"rotate": "true",
@@ -171,7 +172,7 @@
 		"name": "akryllax-eye", // back right
 		"top": "false", // true/false
 		"x": "15",
-		"y": "-5",
+		"y": "15",
 		"shake": "2",
 		"reload": "1",
 		"rotate": "true",
@@ -192,7 +193,7 @@
 		"name": "akryllax-eye", // back left
 		"top": "false", // true/false
 		"x": "-15",
-		"y": "-5",
+		"y": "15",
 		"shake": "2",
 		"reload": "1",
 		"rotate": "true",
