@@ -17,6 +17,7 @@
 	"requirements": [
 		{ "item": "plastanium", "amount": 50 }
 		{ "item": "titanium", "amount": 50 }
+		{ "item": "metaglass", "amount": 20 }
 		{ "item": "graphite", "amount": 20 }
 		{ "item": "iron", "amount": 20 }
 	],
