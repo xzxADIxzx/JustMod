@@ -3,11 +3,10 @@
 "x": "",
 "y": "",
 "mirror": "", // true / false
+"reload": "",
 "rotate": "", // true / false
 "rotateSpeed": "",
 "ignoreRotation": "", // true / false
-"range": "",
-"reload": "",
 "shots": "",
 "shotDelay": "",
 "inaccuracy": "",
