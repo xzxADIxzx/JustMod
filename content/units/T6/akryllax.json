@@ -1,32 +1,39 @@
 "type": "legs"
-"speed": "1"
+"speed": ".8"
 "health": "1000"
 "drag": "0.2"
 "hitSize": "10"
 "targetAir": "true"
 "legCount": "8"
-"legLength": "100"
+"legLength": "80"
 "legTrns": "0.4"
 "legMoveSpace": "1.2"
 "armor": "10"
 "hovering": "true"
 "allowLegStep": "true"
 "visualElevation": "0.2"
+"rotateSpeed": "1"
 "weapons": [
 	{
 		"name": "akryllax-cannon",
-		"top": "true", // true/false
+		"top": "true",
 		"x": "0",
-		"y": "-20",
-		"shake": "2",
-		"reload": "100",
-		"shotDelay": "10",
+		"y": "-18",
+		"mirror": "false",
 		"rotate": "true",
-		"alternate": "true", // true/false
-		"shots": "1",
+		"rotateSpeed": ".8",
+		"ignoreRotation": "false",
+		"range": "100",
+		"reload": "200",
+		"shots": "5",
+		"shotDelay": "0",
 		"inaccuracy": "10",
+		"velocityRnd": "1",
+		"recoil": "5",
+		"shake": "2",
+		"alternate": "false",
+		"shootSound": "artillery",
 		"ejectEffect": "none",
-		// "shootSound": "spark",
 		"bullet": {
 			"type": "ArtilleryBulletType",
 			"damage": "10",
@@ -44,7 +51,7 @@
 			"despawnEffect": "sapExplosion",
 			"status": "sporeSlowed",
 			"statusDuration": "60",
-			"lightning": "5",
+			"lightning": "1",
 			"lightningLength": "20",
 			"fragBullet": {
 				"type": "ArtilleryBulletType",
@@ -52,7 +59,7 @@
 				"splashDamage": "20",
 				"splashDamageRadius": "30",
 				"speed": "3",
-				"lifetime": "50",
+				"lifetime": "80",
 				"hitSize": "50",
 				"hitShake": "5",
 				"width": "20",
@@ -63,151 +70,170 @@
 				"despawnEffect": "sapExplosion",
 				"status": "sporeSlowed",
 				"statusDuration": "60",
-				"fragBullet": {
-					"type": "ArtilleryBulletType",
-					"damage": "10",
-					"splashDamage": "20",
-					"splashDamageRadius": "30",
-					"speed": "1",
-					"lifetime": "10",
-					"hitSize": "12",
-					"hitShake": "0",
-					"width": "5",
-					"height": "5",
-					"backColor": "826ED2",
-					"frontColor": "C8A0F0",
-					"hitEffect": "sapExplosion",
-					"despawnEffect": "sapExplosion",
-					"status": "sporeSlowed",
-					"statusDuration": "60",
-				}
+				// "fragBullet": {}
 			}
 		}
 	}
 	{
 		"name": "akryllax-eye", // front right
-		"top": "false", // true/false
+		"top": "false",
 		"x": "5",
 		"y": "25",
-		"shake": "0",
-		"reload": "1",
-		"rotate": "true",
-		"shotDelay": "3",
-		"alternate": "true", // true/false
-		"shots": "1",
-		"inaccuracy": "0",
-		"ejectEffect": "none",
-		"shootSound": "tractorbeam",
 		"mirror": "false",
+		"rotate": "true",
+		"rotateSpeed": "4",
+		"ignoreRotation": "true",
+		"range": "100",
+		"reload": ".5",
+		"shots": "1",
+		"shotDelay": "0",
+		"inaccuracy": "0",
+		"velocityRnd": "0",
+		"recoil": "0",
+		"shake": "0",
+		"alternate": "false",
+		"shootSound": "tractorbeam",
+		"ejectEffect": "none",
 		"bullet": {
 			"type": "SapBulletType",
-			"damage": "80",
-			"length": "300"
+			"damage": "10",
+			"length": "300",
+			"color": "C8A0F0"
 		}
 	}
 	{
 		"name": "akryllax-eye",  // front left
-		"top": "false", // true/false
+		"top": "false",
 		"x": "-5",
 		"y": "25",
-		"shake": "0",
-		"reload": "1",
-		"rotate": "true",
-		"shotDelay": "3",
-		"alternate": "true", // true/false
-		"shots": "1",
-		"inaccuracy": "0",
-		"ejectEffect": "none",
-		"shootSound": "tractorbeam",
 		"mirror": "false",
+		"rotate": "true",
+		"rotateSpeed": "4",
+		"ignoreRotation": "true",
+		"range": "100",
+		"reload": ".5",
+		"shots": "1",
+		"shotDelay": "0",
+		"inaccuracy": "0",
+		"velocityRnd": "0",
+		"recoil": "0",
+		"shake": "0",
+		"alternate": "false",
+		"shootSound": "tractorbeam",
+		"ejectEffect": "none",
 		"bullet": {
 			"type": "SapBulletType",
-			"damage": "80",
-			"length": "300"
+			"damage": "10",
+			"length": "300",
+			"color": "C8A0F0"
 		}
 	}
 	{
 		"name": "akryllax-eye", // middle right
-		"top": "false", // true/false
+		"top": "false",
 		"x": "10",
 		"y": "20",
-		"shake": "2",
-		"reload": "1",
-		"rotate": "true",
-		"shotDelay": "3",
-		"alternate": "true", // true/false
-		"shots": "1",
-		"inaccuracy": "0",
-		"ejectEffect": "none",
-		"shootSound": "tractorbeam",
 		"mirror": "false",
+		"rotate": "true",
+		"rotateSpeed": "4",
+		"ignoreRotation": "true",
+		"range": "100",
+		"reload": ".5",
+		"shots": "1",
+		"shotDelay": "0",
+		"inaccuracy": "0",
+		"velocityRnd": "0",
+		"recoil": "0",
+		"shake": "0",
+		"alternate": "false",
+		"shootSound": "tractorbeam",
+		"ejectEffect": "none",
 		"bullet": {
 			"type": "SapBulletType",
-			"damage": "80",
-			"length": "300"
+			"damage": "10",
+			"length": "300",
+			"color": "C8A0F0"
 		}
 	}
 	{
 		"name": "akryllax-eye", // middle left
-		"top": "false", // true/false
+		"top": "false",
 		"x": "-10",
 		"y": "20",
-		"shake": "2",
-		"reload": "1",
-		"rotate": "true",
-		"shotDelay": "3",
-		"alternate": "true", // true/false
-		"shots": "1",
-		"inaccuracy": "0",
-		"ejectEffect": "none",
-		"shootSound": "tractorbeam",
 		"mirror": "false",
+		"rotate": "true",
+		"rotateSpeed": "4",
+		"ignoreRotation": "true",
+		"range": "100",
+		"reload": ".5",
+		"shots": "1",
+		"shotDelay": "0",
+		"inaccuracy": "0",
+		"velocityRnd": "0",
+		"recoil": "0",
+		"shake": "0",
+		"alternate": "false",
+		"shootSound": "tractorbeam",
+		"ejectEffect": "none",
 		"bullet": {
 			"type": "SapBulletType",
-			"damage": "80",
-			"length": "300"
+			"damage": "10",
+			"length": "300",
+			"color": "C8A0F0"
 		}
 	}
 	{
 		"name": "akryllax-eye", // back right
-		"top": "false", // true/false
+		"top": "false",
 		"x": "15",
 		"y": "15",
-		"shake": "2",
-		"reload": "1",
-		"rotate": "true",
-		"shotDelay": "3",
-		"alternate": "true", // true/false
-		"shots": "1",
-		"inaccuracy": "0",
-		"ejectEffect": "none",
-		"shootSound": "tractorbeam",
 		"mirror": "false",
+		"rotate": "true",
+		"rotateSpeed": "4",
+		"ignoreRotation": "true",
+		"range": "100",
+		"reload": ".5",
+		"shots": "1",
+		"shotDelay": "0",
+		"inaccuracy": "0",
+		"velocityRnd": "0",
+		"recoil": "0",
+		"shake": "0",
+		"alternate": "false",
+		"shootSound": "tractorbeam",
+		"ejectEffect": "none",
 		"bullet": {
 			"type": "SapBulletType",
-			"damage": "80",
-			"length": "300"
+			"damage": "10",
+			"length": "300",
+			"color": "C8A0F0"
 		}
 	}
 	{
 		"name": "akryllax-eye", // back left
-		"top": "false", // true/false
+		"top": "false",
 		"x": "-15",
 		"y": "15",
-		"shake": "2",
-		"reload": "1",
-		"rotate": "true",
-		"shotDelay": "3",
-		"alternate": "true", // true/false
-		"shots": "1",
-		"inaccuracy": "0",
-		"ejectEffect": "none",
-		"shootSound": "tractorbeam",
 		"mirror": "false",
+		"rotate": "true",
+		"rotateSpeed": "4",
+		"ignoreRotation": "true",
+		"range": "100",
+		"reload": ".5",
+		"shots": "1",
+		"shotDelay": "0",
+		"inaccuracy": "0",
+		"velocityRnd": "0",
+		"recoil": "0",
+		"shake": "0",
+		"alternate": "false",
+		"shootSound": "tractorbeam",
+		"ejectEffect": "none",
 		"bullet": {
 			"type": "SapBulletType",
-			"damage": "80",
-			"length": "300"
+			"damage": "10",
+			"length": "300",
+			"color": "C8A0F0"
 		}
 	}
 ]

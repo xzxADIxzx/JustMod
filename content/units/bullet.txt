@@ -1,3 +1,24 @@
+"name": "",
+"top": "", // true / false
+"x": "",
+"y": "",
+"mirror": "", // true / false
+"rotate": "", // true / false
+"rotateSpeed": "",
+"ignoreRotation": "", // true / false
+"range": "",
+"reload": "",
+"shots": "",
+"shotDelay": "",
+"inaccuracy": "",
+"velocityRnd": "",
+"recoil": "",
+"shake": "",
+"alternate": "", // true / false
+"shootSound": "",
+"ejectEffect": "",
+"bullet": {}
+
 "type": "ArtilleryBulletType",
 "damage": "",
 "splashDamage": "",
