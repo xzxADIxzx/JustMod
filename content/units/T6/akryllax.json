@@ -27,7 +27,7 @@
 		"shots": "5",
 		"shotDelay": "0",
 		"inaccuracy": "10",
-		"velocityRnd": "1",
+		"velocityRnd": ".1",
 		"recoil": "5",
 		"shake": "2",
 		"alternate": "false",
@@ -40,7 +40,7 @@
 			"splashDamageRadius": "30",
 			"speed": "5",
 			"lifetime": "100",
-			"hitSize": "100",
+			"hitSize": "1000",
 			"hitShake": "10",
 			"width": "42",
 			"height": "42",
@@ -59,7 +59,7 @@
 				"splashDamageRadius": "30",
 				"speed": "3",
 				"lifetime": "80",
-				"hitSize": "50",
+				"hitSize": "500",
 				"hitShake": "5",
 				"width": "20",
 				"height": "20",
@@ -96,7 +96,10 @@
 			"type": "SapBulletType",
 			"damage": "10",
 			"length": "300",
-			"color": "C8A0F0"
+			"color": "C8A0F0",
+			"lifetime": "10",
+			"sapStrength": "0.1",
+			"knockback": "-1"
 		}
 	}
 	{
@@ -122,7 +125,10 @@
 			"type": "SapBulletType",
 			"damage": "10",
 			"length": "300",
-			"color": "C8A0F0"
+			"color": "C8A0F0",
+			"lifetime": "10",
+			"sapStrength": "0.1",
+			"knockback": "-1"
 		}
 	}
 	{
@@ -148,7 +154,10 @@
 			"type": "SapBulletType",
 			"damage": "10",
 			"length": "300",
-			"color": "C8A0F0"
+			"color": "C8A0F0",
+			"lifetime": "10",
+			"sapStrength": "0.1",
+			"knockback": "-1"
 		}
 	}
 	{
@@ -174,7 +183,10 @@
 			"type": "SapBulletType",
 			"damage": "10",
 			"length": "300",
-			"color": "C8A0F0"
+			"color": "C8A0F0",
+			"lifetime": "10",
+			"sapStrength": "0.1",
+			"knockback": "-1"
 		}
 	}
 	{
@@ -200,7 +212,10 @@
 			"type": "SapBulletType",
 			"damage": "10",
 			"length": "300",
-			"color": "C8A0F0"
+			"color": "C8A0F0",
+			"lifetime": "10",
+			"sapStrength": "0.1",
+			"knockback": "-1"
 		}
 	}
 	{
@@ -226,7 +241,10 @@
 			"type": "SapBulletType",
 			"damage": "10",
 			"length": "300",
-			"color": "C8A0F0"
+			"color": "C8A0F0",
+			"lifetime": "10",
+			"sapStrength": "0.1",
+			"knockback": "-1"
 		}
 	}
 ]
