@@ -1,12 +1,18 @@
 "type": "payload"
-"speed": "1"
+
 "health": "100"
+"speed": "1"
+"rotateSpeed": "5"
+"accel": "1"
 "drag": "0.01"
+"flying": "true"
+"lowAltitude": "false"
+"commandLimit": "8"
+"engineSize": "1"
+"engineOffset": "4"
 "hitSize": "10"
+"itemCapacity": "0"
 "targetAir": "true"
-"armor": "0"
-"hovering": "true"
-"rotateSpeed": "1"
 "weapons": [
 	{
 		"name": "match-flamethrower",
