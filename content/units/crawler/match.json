@@ -1,15 +1,14 @@
 "type": "payload"
-
 "health": "100"
 "speed": "1"
 "rotateSpeed": "5"
-"accel": "1"
+"accel": "0.01"
 "drag": "0.01"
 "flying": "true"
 "lowAltitude": "false"
 "commandLimit": "8"
 "engineSize": "1"
-"engineOffset": "4"
+"engineOffset": "6"
 "hitSize": "10"
 "itemCapacity": "0"
 "targetAir": "true"
@@ -35,6 +34,7 @@
 		"ejectEffect": "none",
 		"bullet": {
 			"type": "BulletType",
+			"damage": "24",
 			"ammoMultiplier": "3",
 			"lifetime": "6",
 			"pierce": "true",

@@ -3,7 +3,7 @@
 "speed": "3"
 "maxVelocity": "10"
 "rotateSpeed": "10"
-"accel": "1"
+"accel": "0.01"
 "drag": "0.01"
 "mass": "0.5"
 "flying": "true"

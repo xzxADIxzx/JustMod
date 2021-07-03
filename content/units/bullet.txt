@@ -19,6 +19,7 @@
 "bullet": {}
 
 "type": "BulletType",
+"damage": "",
 "ammoMultiplier": "",
 "lifetime": "",
 "pierce": "", // true / false
