@@ -19,7 +19,7 @@
 		"x": "0",
 		"y": "0",
 		"mirror": "false",
-		"reload": "13",
+		"reload": "15",
 		"rotate": "false",
 		"rotateSpeed": "0",
 		"ignoreRotation": "true",
@@ -34,7 +34,7 @@
 		"ejectEffect": "none",
 		"bullet": {
 			"type": "BulletType",
-			"damage": "24",
+			"damage": "12",
 			"ammoMultiplier": "3",
 			"speed": "5",
 			"lifetime": "12",
@@ -50,9 +50,9 @@
 		}
 	}
 ]
-// "research": {
-// 	"parent": "crawler",
+"research": {
+	"parent": "ground-factory",
 // 	"requirements": [
 // 		/""
 // 	]
-// }
+}

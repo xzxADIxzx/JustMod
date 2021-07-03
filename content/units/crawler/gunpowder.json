@@ -14,33 +14,35 @@
 "targetAir": "true"
 "weapons": [
 	{
-		"name": "match-flamethrower",
+		"name": "fuse",
 		"top": "true",
 		"x": "0",
-		"y": "0",
+		"y": "5",
 		"mirror": "false",
-		"reload": "20",
+		"reload": "60",
 		"rotate": "false",
 		"rotateSpeed": "0",
 		"ignoreRotation": "true",
-		"shots": "1",
-		"shotDelay": "0",
+		"shots": "3",
+		"spacing": "25",
+		"shotDelay": "1",
 		"inaccuracy": "0",
 		"velocityRnd": "0",
 		"recoil": "0",
 		"shake": "0",
 		"alternate": "false",
-		"shootSound": "shootBig",
+		"shootSound": "shotgun",
 		"ejectEffect": "casing1",
 		"bullet": {
 			"type": "ShrapnelBulletType",
-			"damage": "60",
-			"length": "90",
-			"width": "25",
-			"serrationLenScl": "7",
-			"serrationSpaceOffset": "60",
+			"damage": "25",
+			"length": "35",
+			"width": "10",
+			"serrations": "5",
+			"serrationLenScl": "3",
+			"serrationSpacing": "10",
+			"serrationSpaceOffset": "20",
 			"serrationFadeOffset": "0",
-			"serrations": "10",
 			"serrationWidth": "6",
 			"fromColor": "826ED2",
 			"toColor": "C8A0F0",
@@ -49,9 +51,9 @@
 		}
 	}
 ]
-// "research": {
-// 	"parent": "crawler",
+"research": {
+	"parent": "justmod-match",
 // 	"requirements": [
 // 		/""
 // 	]
-// }
+}
