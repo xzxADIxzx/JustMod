@@ -248,9 +248,9 @@
 		}
 	}
 ]
-// "research": {
-// 	"parent": "crawler",
+"research": {
+	"parent": "toxopid",
 // 	"requirements": [
 // 		/""
 // 	]
-// }
+}
