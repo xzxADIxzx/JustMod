@@ -1,0 +1,51 @@
+"type": "payload"
+"speed": "1"
+"health": "100"
+"drag": "0.01"
+"hitSize": "10"
+"targetAir": "true"
+"armor": "0"
+"hovering": "true"
+"rotateSpeed": "1"
+"weapons": [
+	{
+		"name": "match-flamethrower",
+		"top": "true",
+		"x": "0",
+		"y": "0",
+		"mirror": "false",
+		"reload": "11",
+		"rotate": "false",
+		"rotateSpeed": "0",
+		"ignoreRotation": "true",
+		"shots": "1",
+		"shotDelay": "0",
+		"inaccuracy": "0",
+		"velocityRnd": "0",
+		"recoil": "1",
+		"shake": "0",
+		"alternate": "false",
+		"shootSound": "flame",
+		"ejectEffect": "none",
+		"bullet": {
+			"type": "BulletType",
+			"ammoMultiplier": "3",
+			"lifetime": "6",
+			"pierce": "true",
+			"keepVelocity": "false",
+			"hitSize": "7",
+			"hittable": "false",
+			"hitEffect": "hitFlameSmall",
+			"shootEffect": "shootSmallFlame",
+			"despawnEffect": "none",
+			"status": "burning",
+			"statusDuration": "120"
+		}
+	}
+]
+// "research": {
+// 	"parent": "crawler",
+// 	"requirements": [
+// 		/""
+// 	]
+// }

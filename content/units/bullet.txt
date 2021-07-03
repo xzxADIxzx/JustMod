@@ -18,6 +18,19 @@
 "ejectEffect": "",
 "bullet": {}
 
+"type": "BulletType",
+"ammoMultiplier": "",
+"lifetime": "",
+"pierce": "", // true / false
+"keepVelocity": "", // true / false
+"hitSize": "",
+"hittable": "", // true / false
+"hitEffect": "",
+"shootEffect": "",
+"despawnEffect": "",
+"status": "",
+"statusDuration": ""
+
 "type": "ArtilleryBulletType",
 "damage": "",
 "splashDamage": "",
