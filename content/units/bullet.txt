@@ -50,3 +50,17 @@
 "status": "", // sporeSlowed
 "statusDuration": "",
 "fragBullet": {}
+
+"type": "ShrapnelBulletType",
+"damage": "",
+"length": "",
+"width": "",
+"serrationLenScl": "",
+"serrationSpaceOffset": "",
+"serrationFadeOffset": "",
+"serrations": "",
+"serrationWidth": "",
+"fromColor": "",
+"toColor": "",
+"shootEffect": "", // sparkShoot
+"smokeEffect": "" // sparkShoot

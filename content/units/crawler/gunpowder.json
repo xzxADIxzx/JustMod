@@ -6,8 +6,8 @@
 "drag": "0.01"
 "flying": "true"
 "lowAltitude": "false"
-"commandLimit": "8"
-"engineSize": "1.5"
+"commandLimit": "6"
+"engineSize": "2"
 "engineOffset": "4.8"
 "hitSize": "10"
 "itemCapacity": "0"
@@ -19,7 +19,7 @@
 		"x": "0",
 		"y": "0",
 		"mirror": "false",
-		"reload": "13",
+		"reload": "20",
 		"rotate": "false",
 		"rotateSpeed": "0",
 		"ignoreRotation": "true",
@@ -30,23 +30,22 @@
 		"recoil": "0",
 		"shake": "0",
 		"alternate": "false",
-		"shootSound": "flame",
-		"ejectEffect": "none",
+		"shootSound": "shootBig",
+		"ejectEffect": "casing1",
 		"bullet": {
-			"type": "BulletType",
-			"damage": "24",
-			"ammoMultiplier": "3",
-			"speed": "5",
-			"lifetime": "12",
-			"pierce": "true",
-			"keepVelocity": "false",
-			"hitSize": "7",
-			"hittable": "false",
-			"hitEffect": "hitFlameSmall",
-			"shootEffect": "shootSmallFlame",
-			"despawnEffect": "none",
-			"status": "burning",
-			"statusDuration": "120"
+			"type": "ShrapnelBulletType",
+			"damage": "60",
+			"length": "90",
+			"width": "25",
+			"serrationLenScl": "7",
+			"serrationSpaceOffset": "60",
+			"serrationFadeOffset": "0",
+			"serrations": "10",
+			"serrationWidth": "6",
+			"fromColor": "826ED2",
+			"toColor": "C8A0F0",
+			"shootEffect": "sparkShoot",
+			"smokeEffect": "sparkShoot"
 		}
 	}
 ]
