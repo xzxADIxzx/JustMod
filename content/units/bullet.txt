@@ -21,6 +21,7 @@
 "type": "BulletType",
 "damage": "",
 "ammoMultiplier": "",
+"speed": "",
 "lifetime": "",
 "pierce": "", // true / false
 "keepVelocity": "", // true / false
