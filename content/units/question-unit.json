@@ -1,0 +1,56 @@
+"type": "payload"
+"health": "42000000"
+"speed": "5"
+"maxVelocity": "8"
+"rotateSpeed": "8"
+"accel": "0.4"
+"drag": "0.01"
+"flying": "true"
+"lowAltitude": "false"
+"commandLimit": "0"
+"engineSize": "1.5"
+"engineOffset": "4.8"
+"hitSize": "10"
+"itemCapacity": "42"
+"buildSpeed": "42"
+// "research": ""
+"targetAir": "true"
+"ammoCapacity": "42"
+"weapons": [
+	{
+		"name": "question",
+		"top": "true",
+		"x": "0",
+		"y": "4.8",
+		"mirror": "false",
+		"reload": "1",
+		"rotate": "false",
+		"rotateSpeed": "0",
+		"ignoreRotation": "true",
+		"shots": "1",
+		"shotDelay": "0",
+		"inaccuracy": "0",
+		"velocityRnd": "0",
+		"recoil": "0",
+		"shake": "0",
+		"alternate": "false",
+		"shootSound": "flame",
+		"ejectEffect": "none",
+		"bullet": {
+			"type": "BulletType",
+			"damage": "42000000",
+			"ammoMultiplier": "42",
+			"speed": "42",
+			"lifetime": "42",
+			"pierce": "true",
+			"keepVelocity": "true",
+			"hitSize": "1",
+			"hittable": "false",
+			"hitEffect": "hitFlameSmall",
+			"shootEffect": "shootSmall",
+			"despawnEffect": "none",
+			"status": "none",
+			"statusDuration": "0"
+		}
+	}
+]
